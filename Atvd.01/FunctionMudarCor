@@ -1,0 +1,10 @@
+function MudarCor() {
+    
+    const estilo = document.querySelectorAll(".header-content");
+    
+    estilo.forEach(estilo => {
+      header.style.backgroundColor = "pink";
+    });
+  }
+
+  MudarCor();
